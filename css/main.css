@@ -1,1 +1,48 @@
-# OnlineCoffeeShop
+@font-face {
+    font-family: "Jost";
+    src: url("../fonts/Jost-ExtraBold.woff2") format("woff2");
+    font-weight: 800;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Jost";
+    src: url("../fonts/Jost-Bold.woff2") format("woff2");
+    font-weight: 600;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Jost";
+    src: url("../fonts/Jost-Regular.woff2") format("woff2");
+    font-weight: 400;
+    font-style: normal;
+}
+body{
+    margin: 0;
+}
+@media (max-width: 480px) {
+    .header_menu{
+        position: absolute;
+        left: 50px;
+    }
+    .nav{
+        left: 400px;
+    }
+    .coffee_main_head{
+        left: 30px;
+    }
+    .explore{
+        left: 50px;
+    }
+    .order{
+        left: 50px;
+    }
+    .feedback{
+        left: 50px;
+    }
+    .contacts{
+        left: 50px;
+    }
+    .footer{
+        left: 50px;
+    }
+}
